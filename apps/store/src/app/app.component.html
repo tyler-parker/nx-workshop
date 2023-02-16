@@ -1,6 +1,3 @@
-<bg-hoard-header title="Board Game Hoard"></bg-hoard-header>
-<!-- right at the top - above our container -->
-<div class="container"></div>
 <div class="container">
   <div class="games-layout">
     <mat-card class="game-card" *ngFor="let game of games">
@@ -17,7 +14,7 @@
           {{ game.description }}
         </p>
         <span>
-          <span style="font-weight: bold">Rating:</span> {{ formatRating(game.rating) }}
+          <span style="font-weight: bold">Rating:</span> {{ game.rating }}
         </span>
       </mat-card-content>
     </mat-card>
