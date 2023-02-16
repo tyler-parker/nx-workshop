@@ -47,15 +47,15 @@
       "implementation": "./src/migrations/complete-lab-6/complete-lab-6",
       "package": "@nrwl/nx-workshop",
       "name": "complete-lab-6"
-    }
-    // {
-    //   "version": "0.1.7",
-    //   "description": "Complete Lab 7",
-    //   "cli": "nx",
-    //   "implementation": "./src/migrations/complete-lab-7/complete-lab-7",
-    //   "package": "@nrwl/nx-workshop",
-    //   "name": "complete-lab-7"
-    // },
+    },
+    {
+      "version": "0.1.7",
+      "description": "Complete Lab 7",
+      "cli": "nx",
+      "implementation": "./src/migrations/complete-lab-7/complete-lab-7",
+      "package": "@nrwl/nx-workshop",
+      "name": "complete-lab-7"
+    },
     // {
     //   "version": "0.1.8",
     //   "description": "Complete Lab 8",
