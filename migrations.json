@@ -56,14 +56,14 @@
       "package": "@nrwl/nx-workshop",
       "name": "complete-lab-7"
     },
-    // {
-    //   "version": "0.1.8",
-    //   "description": "Complete Lab 8",
-    //   "cli": "nx",
-    //   "implementation": "./src/migrations/complete-lab-8/complete-lab-8",
-    //   "package": "@nrwl/nx-workshop",
-    //   "name": "complete-lab-8"
-    // }
+    {
+      "version": "0.1.8",
+      "description": "Complete Lab 8",
+      "cli": "nx",
+      "implementation": "./src/migrations/complete-lab-8/complete-lab-8",
+      "package": "@nrwl/nx-workshop",
+      "name": "complete-lab-8"
+    }
     // {
     //   "version": "0.1.9",
     //   "description": "Complete Lab 9",
