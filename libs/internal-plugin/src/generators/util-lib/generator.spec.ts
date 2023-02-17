@@ -6,7 +6,7 @@ import { UtilLibGeneratorSchema } from './schema';
 
 describe('util-lib generator', () => {
   let appTree: Tree;
-  const options: UtilLibGeneratorSchema = { name: 'test' };
+  const options: UtilLibGeneratorSchema = { name: 'test', directory: 'api' };
 
   beforeEach(() => {
     appTree = createTreeWithEmptyWorkspace({layout: 'apps-libs'});
