@@ -7,7 +7,7 @@ export default {
   component: HeaderComponent,
   decorators: [
     moduleMetadata({
-      imports: [ MatToolbarModule ],
+      imports: [MatToolbarModule],
     }),
   ],
 } as Meta<HeaderComponent>;

@@ -15,7 +15,7 @@ export class GameDetailComponent {
 
   game$ = this.route.paramMap.pipe(
     map((params: ParamMap) => params.get('id')),
-    switchMap((id) => this.http.get<Game>(`/api/games/${id}`))
+    switchMap((id) => this.http.get<any>(`/api/games/${id}`))
   );
   formatRating = formatRating;
 }

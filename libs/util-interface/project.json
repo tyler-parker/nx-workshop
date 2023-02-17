@@ -4,16 +4,6 @@
   "sourceRoot": "libs/util-interface/src",
   "projectType": "library",
   "targets": {
-    "build": {
-      "executor": "@nrwl/js:tsc",
-      "outputs": ["{options.outputPath}"],
-      "options": {
-        "outputPath": "dist/libs/util-interface",
-        "main": "libs/util-interface/src/index.ts",
-        "tsConfig": "libs/util-interface/tsconfig.lib.json",
-        "assets": ["libs/util-interface/*.md"]
-      }
-    },
     "lint": {
       "executor": "@nrwl/linter:eslint",
       "outputs": ["{options.outputFile}"],
