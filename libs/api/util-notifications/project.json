@@ -1,7 +1,8 @@
 {
   "name": "api-util-notifications",
   "$schema": "../../../node_modules/nx/schemas/project-schema.json",
-  "tags": ["type:util", "scope:api"],
+  "sourceRoot": "libs/api/util-notifications/src",
+  "projectType": "library",
   "targets": {
     "lint": {
       "executor": "@nrwl/linter:eslint",
@@ -24,5 +25,6 @@
         }
       }
     }
-  }
+  },
+  "tags": ["type:util", "scope:api"]
 }

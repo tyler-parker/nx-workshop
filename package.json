@@ -47,7 +47,7 @@
     "@nrwl/linter": "^15.7.1",
     "@nrwl/node": "15.7.1",
     "@nrwl/nx-workshop": "0.4.6",
-    "@nrwl/storybook": "^15.7.1",
+    "@nrwl/storybook": "^15.7.0",
     "@nrwl/webpack": "15.7.1",
     "@nrwl/workspace": "15.7.1",
     "@storybook/addon-essentials": "^6.5.15",
